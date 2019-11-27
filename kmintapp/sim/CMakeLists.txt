@@ -16,7 +16,8 @@ add_executable(sim
   src/sim/hello_actor.cpp
   src/sim/cow.cpp
   src/sim/hare.cpp
-  src/main.cpp)
+  src/main.cpp
+  src/SteeringBehaviors.cpp)
 target_include_directories(sim
   PRIVATE src
   PUBLIC include)
